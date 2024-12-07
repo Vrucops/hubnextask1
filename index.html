@@ -1,20 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
-    <title>Vercel HTML Starter</title>
-    <meta
-      name="description"
-      content="High-performance HTML based website template."
-    />
-  </head>
-  <body>
-    <h1>Hello</h1>
-  </body>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Main container with Join Now and Let's Talk sections -->
+
+    <div>
+        <div class="main-container-contact-us">
+            <div class="join-now-section">
+                <img src="/public/Frame123.png" alt="Join Now Image">
+            </div>
+            <div class="lets-talk-section">
+                <div class="lets-talk-header">
+                    <h2>Let's Talk - Contact Our Experts</h2>
+                    <p>Tell us a little bit about yourself and your queries. Our customer experience team will reach out to
+                        you within 24 hours.</p>
+                </div>
+                <div class="contact-form">
+                    <!-- Form with two inputs on the same line -->
+                    <div style="display: flex; gap: 20px; padding-bottom: 1rem;">
+                        <div class="form-group-sub">
+                            <label for="name">Name*</label>
+                            <input type="text" id="name" />
+                        </div>
+                        <div class="form-group-sub">
+                            <label for="business-name">Business Name*</label>
+                            <input type="text" id="business-name" />
+                        </div>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="business-email">Business Email*</label>
+                        <input type="email" id="business-email" />
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="contact-number">Contact No*</label>
+                        <input type="text" id="contact-number" />
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="reason-for-contact">Reason for Contact Request</label>
+                        <textarea id="reason-for-contact"></textarea>
+                    </div>
+    
+                    <div class="form-submit">
+                        <div class="contactus-form-button">
+                            <div>Submit</div>
+                            <div>&#8594;</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="locations-container">
+            <div class="locations-header">
+                <h1>Our Locations</h1>
+            </div>
+            <div class="locations-body">
+                <div style="display: flex; flex-direction: column;">
+                    <div style="display: flex;">
+                        <div style="box-shadow: 1px 0 1px rgba(0, 0, 0, 0.1); padding: 1rem; text-align: center;">
+                            <img src="/public/india.png" alt="India"/>
+                            <div>India</div>
+                        </div>
+                        
+                        <div style="background-color:#F7F7F7; padding: 1rem; text-align: center;">
+                            <img src="/public/uae.png"/>
+                            <div>UAE</div>
+                        </div>
+                        <div style="background-color:#F7F7F7; padding: 1rem; text-align: center;">
+                            <img src="/public/usa.png"/>
+                            <div>USA</div>
+                        </div>
+                        <div style="background-color:#F7F7F7; padding: 1rem; text-align: center;">
+                            <img src="/public/indonesia.png"/>
+                            <div>INDONESIA</div>
+                        </div>
+                    </div>
+                    <div class="locations-list">
+                        <div class="location-item" style="color: #1D4ED8; text-decoration: underline;">Gurugram</div>
+                        <div class="location-item">Bangalore</div>
+                        <div class="location-item">Pune</div>
+                        <div class="location-item">Lucknow</div>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <img class="contact-icon" src="/public/location_on.png" alt="Location Icon"/>
+                            <h3 class="contact-text">Etihad Airways Centre, Al Rahah, Al <br/> Muneera, Abu Dhabi, UAE</h3>
+                        </div>
+                        <div class="contact-item">
+                            <img class="contact-icon" src="/public/mail.png" alt="Mail Icon"/>
+                            <h3 class="contact-text">hello@hubnex.in</h3>
+                        </div>
+                        <div class="contact-item">
+                            <img class="contact-icon" src="/public/local_phone.png" alt="Phone Icon"/>
+                            <h3 class="contact-text">+91 1234567890</h3>
+                        </div>
+                        <div style="display: flex; background-color: #1D4ED8; color: white; padding: 1rem 1rem; width: 35%; max-width: 250px; text-align: center; border-radius: 8px; cursor: pointer; transition: background-color 0.3s ease;">
+                            Contact Us &#8594;
+                        </div>
+                    </div>
+                </div>
+                <div class="locations-image">
+                    <img src="/public/Frame959.png" alt="Locations Image"/>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+</body>
+
 </html>

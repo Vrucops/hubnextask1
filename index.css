@@ -1,0 +1,223 @@
+/* Layout for main container */
+.main-container-contact-us {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Location Container Styling */
+.location-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.location-item {
+    font-weight: normal;
+    color: #737373;
+}
+
+/* Join Now Section */
+.join-now-section {
+    flex: 0 0 25%; 
+    padding: 20px;
+    display: flex;
+    height: 40rem;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.join-now-section img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+/* Let's Talk Section */
+.lets-talk-section {
+    flex: 1;
+    padding: 3rem;
+}
+
+/* Center the Let's Talk Header */
+.lets-talk-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding-bottom: 1rem;
+}
+
+.lets-talk-header h2 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.lets-talk-header p {
+    font-size: 1.125rem;
+    color: #667085;
+    margin: 0;
+    max-width: 600px;
+}
+
+/* Form styling */
+.contact-form {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding-bottom: 1rem;
+    
+}
+
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* For form-group-sub (input boxes on the same line) */
+div[style="display: flex;"] {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Ensures the input boxes are spaced properly */
+.form-group-sub {
+    flex: 1;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* Button styling */
+.contactus-form-button {
+    display: flex;
+    background-color: #1D4ED8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Submit Button Wrapper */
+.form-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Make the textarea and submit button same width */
+textarea, .contactus-form-button {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.locations-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 30rem;
+    padding-right: 20rem;
+}
+
+.locations-header h1 {
+    text-align: left;
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.locations-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.locations-list {
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    gap: 10px;
+}
+
+.location-item {
+    font-size: .8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.contact-text {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+}
+
+.locations-image img {
+    max-width: 100%; /* Make sure the image is responsive */
+    height: 25rem;
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
